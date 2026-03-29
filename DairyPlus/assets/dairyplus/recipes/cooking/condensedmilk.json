@@ -13,7 +13,7 @@
 	"ingredients": [
 		{ 
 			"code": "milk", 
-			"validStacks": [ {"type": "item","code": "game:milkportion"],
+			"validStacks": [ {"type": "item","code": "game:milkportion"} ],
 			"minQuantity": 1,
 			"maxQuantity": 1,
 			"portionSizeLitres": 1

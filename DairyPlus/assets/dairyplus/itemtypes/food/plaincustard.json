@@ -5,13 +5,18 @@
 	"maxStackSize": 32,
 	"materialDensity": 900,
 	
-	"nutritionProp":  { "saturation": 300, "foodcategory": "Dairy" },
+	"nutritionProps":  { "saturation": 200, "foodcategory": "Dairy" },
 	"perishableProps": {
 		"freshHours": { "avg": 144 },
 		"transitionHours": { "avg": 36 },
 		"transitionRatio": 1,
-		"transitionedStack": { "type": "item", "code": "game:rot" },
-	},
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+		},
+	"attributes": {
+		"inPieProperties": { "texture": "game:block/custardfill", "partType": "Filling" },
+		"displaycaseable": true,
+		"shelvable": true
+		},
 	
 	"drawtype": "json",
 	"shape": { "base": "dairyplus:item/plaincustard" },
@@ -28,13 +33,13 @@
 		"rotation": { "x": 151, "y": 148, "z": 2 },
 		"origin": {	"x": 0.45,	"y": 0.03,	"z": 0.39 },
 		"scale": 4.27
-	},
+		},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": 3, "y": 1, "z": 0 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 		"scale": 5
-	},
+		},
 
 	"heldRightReadyAnimationByType": {
 		"*": "holdbothhands"},

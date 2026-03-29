@@ -7,6 +7,7 @@
 	"creativeinventory": { "general": [ "*" ], "dairyplus": [ "*" ], "items": [ "*" ] },
 	"maxStackSize": 24,
 	"materialDensity": 900,
+	"canSealCrock": "true",
 
 	"shape": { "base": "dairyplus:item/butter" },
 	"texture": { "base": "dairyplus:item/butter/{type}"
@@ -112,13 +113,13 @@
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": -17, "y": -26, "z": 0 },
 		"origin": {	"x": 0.27,	"y": 0.23,	"z": 0.1 },
-		"scale": 2.5
+		"scale": 2.18
 		},
 	"tpHandTransform": {
-		"translation": { "x": 0.25, "y": 0.5, "z": 0.1 },
-		"rotation": { "x": -14, "y": 44, "z": -70 },
-		"origin": { "x": 0, "y": 0, "z": 0 },
-		"scale": 0.5
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 15, "z": -89 },
+		"origin": { "x": -0.1, "y": 0.2, "z": 0.22 },
+		"scale": 0.36
 		},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

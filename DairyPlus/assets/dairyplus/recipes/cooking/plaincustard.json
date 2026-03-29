@@ -22,7 +22,7 @@
 			"code": "egg", 
 			"validStacks": [ {"type": "item","code": "game:egg-chicken-raw"}],
 			"minQuantity": 1,
-			"maxQuantity": 1,
+			"maxQuantity": 1
 		}
 	],
 	"cooksInto": { "type": "item", "code": "dairyplus:plaincustard", "quantity": 2 }

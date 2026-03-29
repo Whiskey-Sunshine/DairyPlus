@@ -1,0 +1,35 @@
+[ 
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+        { "type": "item", "code": "dairyplus:soybeans-shelled", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group5" ] },
+		{ "type": "item", "code": "dairyplus:soybeans-soaked", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group5" ] },
+	  ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",
+  },  
+    {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+        { "type": "item", "code": "dairyplus:soybeans-shelled", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group5" ] },
+		{ "type": "item", "code": "dairyplus:soybeans-soaked", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group5" ] },
+	  ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",
+  },  
+    {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value":  [
+        {"type": "item", "code": "game:milkportion"},
+		{"type": "item", "code": "dairyplus:soymilk"},
+		{"type": "item", "code": "dairyplus:skimmilk"},
+		{"type": "item", "code": "dairyplus:cream"},
+		{"type": "item", "code": "dairyplus:condensedmilk"},
+	  ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",
+  }
+ ]

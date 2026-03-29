@@ -20,8 +20,10 @@
 					"type": "item",
 					"code": "dairyplus:condensedmilk"
 				}
-			}
-
+			},
+			"nutritionPropsPerLitre": {
+				"saturation": 400,
+				"foodcategory": "Dairy"}
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
@@ -46,18 +48,20 @@
 			]
 		}
 	],
+	
 	"maxstacksize": 5000,
 	"materialDensity": 200,
+	
 	"transitionableProps": [
 		{
 			"type": "Perish",
-			"freshHours": { "avg": 480 },
-			"transitionHours": { "avg": 168 },
+			"freshHours": { "avg": 648 },
+			"transitionHours": { "avg": 336 },
 			"transitionedStack": {
 				"type": "item",
 				"code": "game:rot"
 			},
-			"transitionRatio": 0.002
+			"transitionRatio": 0.02
 		}
 	],
 	"guiTransform": {

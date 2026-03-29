@@ -1,0 +1,52 @@
+{
+	"code": "butterdish",
+	"creativeinventory": {
+		"general": [ "*-north" ],
+		"decorative": [ "*-north" ],
+		"dairyplus": [ "*-north" ]},
+	"variantgroups": [
+		{ "code": "type", "states": [ "plain", "glass" ] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
+		
+	"behaviors": [{"name": "HorizontalOrientable"},{"name": "WrenchOrientable"}],
+	"attributes": {
+		"handbook": { "exclude": "true" }
+		},
+	
+	"materialDensity": 900,
+	"resistance": 0.10,
+
+	"blockmaterial": "glass",
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"lightAbsorption": 0,
+	"maxStackSize": 12,
+
+	"drawtype": "json",
+	"shapeByType": {
+		"*-north": { "base": "dairyplus:block/butterdish", "rotateY": 90 },
+		"*-east": { "base": "dairyplus:block/butterdish", "rotateY": 0 },
+		"*-south": { "base": "dairyplus:block/butterdish", "rotateY":270 },
+		"*-west": { "base": "dairyplus:block/butterdish", "rotateY": 180 },
+	},
+	"textures": {
+		"base": { "base": "dairyplus:block/other/{type}" }
+	},
+	
+	"CollisionSelectionBoxByType": {
+		"*-north": { "x1": 0.125, "y1": 0, "z1": 0.25, "x2": 0.875, "y2": 0.25, "z2": 0.75 },
+		"*-south": { "x1": 0.125, "y1": 0, "z1": 0.25, "x2": 0.875, "y2": 0.25, "z2": 0.75 },
+		"*": { "x1": 0.25, "y1": 0, "z1": 0.125, "x2": 0.75, "y2": 0.25, "z2": 0.875 }
+		},
+	"guiTransform": {
+		"rotation": { "x": -22.6, "y": 137, "z": 2 },
+		"origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+		"scale": 2.74
+		},
+	"tpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -41, "y": 15, "z": -66 },
+		"origin": { "x": -0.2, "y": 0.6, "z": 0 },
+		"scale": 0.58
+		}
+}
