@@ -28,14 +28,13 @@ namespace DairyPlus.Items
             var milkProps = GetContainableProps(liqslot.Itemstack);
             float itemsPerLitre = milkProps?.ItemsPerLitre ?? 1f;
             float curLitres = liqslot.Itemstack.StackSize / itemsPerLitre;
-            if (liqslot.Itemstack.Item?.Code?.Path != "dairyplus:item/liquid/separatingmilk") return;
+            if (liqslot.Itemstack.Item.Code.Path == "item/liquid/separatingmilk") return;
 
                 //has enough milk
             if (curLitres < 50f)
             {
                 (api as ICoreClientAPI)?.TriggerIngameError(this, "notenough",
                     Lang.Get("Need 50L of Settled Milk to skim Cream from"));
-                handHandling = EnumHandHandling.PreventDefault;
                 return;
             }
 
@@ -46,7 +45,6 @@ namespace DairyPlus.Items
             {
                 (api as ICoreClientAPI)?.TriggerIngameError(this, "full",
                     Lang.Get("Empty your scoop first."));
-                handHandling = EnumHandHandling.PreventDefault;
                 return;
             }
 
@@ -90,7 +88,7 @@ namespace DairyPlus.Items
                 Item creamItem = api.World.GetItem(new AssetLocation("dairyplus", "cream"));
                 if (creamItem != null)
                 {
-                    ItemStack source = new ItemStack(creamItem, 999999);
+                    ItemStack source = new ItemStack(creamItem, 9999);
                     TryPutLiquid(slot.Itemstack, source, 10f);
                 }
 

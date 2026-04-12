@@ -6,12 +6,13 @@
 	"materialDensity": 900,
 	
 	"nutritionProps":  { "saturation": 200, "foodcategory": "Dairy" },
-	"perishableProps": {
-		"freshHours": { "avg": 144 },
-		"transitionHours": { "avg": 36 },
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 12 },
 		"transitionRatio": 1,
 		"transitionedStack": { "type": "item", "code": "game:rot" }
-		},
+		}],
 	"attributes": {
 		"inPieProperties": { "texture": "game:block/custardfill", "partType": "Filling" },
 		"displaycaseable": true,

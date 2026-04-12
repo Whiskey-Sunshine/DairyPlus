@@ -23,5 +23,5 @@
 		"hit": "block/planks",
 		"break": "block/planks"
 	},
-		"maxStackSize": 1,
+		"maxStackSize": 1
 }

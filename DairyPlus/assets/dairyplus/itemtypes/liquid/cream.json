@@ -13,6 +13,7 @@
 			"itemsPerLitre": 100,
 			"isopaque": true,
 			"texture": { "base": "dairyplus:block/dairy/cream" },
+			"allowHeldTransfer": true,
 			"allowSpill": true,
 			"whenSpilled": {
 				"action": "DropContents",

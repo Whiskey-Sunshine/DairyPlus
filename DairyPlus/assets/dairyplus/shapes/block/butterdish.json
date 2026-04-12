@@ -76,7 +76,7 @@
 						"east": { "texture": "#base", "uv": [ 0.0, 10.5, 1.0, 11.0 ] },
 						"south": { "texture": "#base", "uv": [ 1.0, 15.5, 7.0, 16.0 ] },
 						"west": { "texture": "#base", "uv": [ 0.0, 14.0, 1.0, 14.5 ], "rotation": 180 },
-						"up": { "texture": "#base", "uv": [ 0.0, 9.0, 1.0, 15.0 ], "rotation": 90 },
+						"up": { "texture": "#base", "uv": [ 0.0, 9.0, 1.0, 15.0 ], "rotation": 270 },
 						"down": { "texture": "#base", "uv": [ 0.0, 9.0, 1.0, 15.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
 					}
 				}
@@ -109,7 +109,7 @@
 					"faces": {
 						"north": { "texture": "#base", "uv": [ 11.5, 2.0, 15.5, 4.5 ] },
 						"east": { "texture": "#base", "uv": [ 3.0, 2.5, 3.5, 5.0 ] },
-						"south": { "texture": "#base", "uv": [ 10.5, 0.0, 14.5, 2.5 ] },
+						"south": { "texture": "#base", "uv": [ 11.0, 0.0, 15.0, 2.5 ] },
 						"west": { "texture": "#base", "uv": [ 4.0, 3.0, 4.5, 5.5 ] },
 						"up": { "texture": "#base", "uv": [ 8.0, 1.5, 8.5, 5.5 ], "rotation": 90 }
 					}

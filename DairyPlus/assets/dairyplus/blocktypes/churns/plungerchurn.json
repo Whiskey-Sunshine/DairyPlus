@@ -21,7 +21,7 @@
 	"sidesolid": { "all": false },
 	"sideopaque": { "all": false },
 	"sideao": { "all": false },
-	"lightAbsorption": 1,
+	"lightAbsorption": 0,
 	"maxStackSize": 1,
 
 	"attributes": {

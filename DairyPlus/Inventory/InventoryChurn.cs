@@ -38,7 +38,8 @@ namespace DairyPlus.Inventory
             set
             {
                 if (slotId < 0 || slotId >= Count) throw new ArgumentOutOfRangeException(nameof(slotId));
-                if (value == null) throw new ArgumentNullException(nameof(value));
+                ArgumentNullException.ThrowIfNull(value);
+
                 slots[slotId] = value;
             }
         }
@@ -58,14 +59,12 @@ namespace DairyPlus.Inventory
             if (i == 0)
             {
                 {
-                    var slot = new ItemSlotWatertight(this);
-                    slot.capacityLitres = 12;
+                    var slot = new ItemSlotWatertight(this)
+                    {capacityLitres = 12};
                     return slot;
                 }
             }
             return new ItemSlotWatertight(this);
-            if (i == 1) return new ItemSlotOutput(this);
-            throw new ArgumentOutOfRangeException(nameof(i), "Invalid");
         }
 
         // Add cream to inputslot restriction
