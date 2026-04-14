@@ -29,8 +29,8 @@
         { "type": "item", "code": "dairyplus:soymilk", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "dairyplus:skimmilk", "shapeElement": "bowl/topping/*" },
 		{ "type": "item", "code": "dairyplus:condensedmilk", "shapeElement": "bowl/topping/*" },
-		{ "type": "item", "code": "dairyplus:sauce-plain", "shapeElement": "bowl/topping/*" },
-		{ "type": "item", "code": "dairyplus:sauce-cheese", "shapeElement": "bowl/topping/*" }
+		{ "type": "item", "code": "dairyplus:sauceplain", "shapeElement": "bowl/topping/*" },
+		{ "type": "item", "code": "dairyplus:saucecheese", "shapeElement": "bowl/topping/*" }
        ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json"

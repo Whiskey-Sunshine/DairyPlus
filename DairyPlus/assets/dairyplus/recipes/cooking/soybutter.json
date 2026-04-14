@@ -21,8 +21,7 @@
 		{ 
 			"code": "oil", 
 			"validStacks": [ 
-				{"type": "item","code": "game:oilportion-olive", "shapeElement": "game:bowl/water"},
-				{"type": "item","code": "game:oilportion-flax", "shapeElement": "game:bowl/water"}
+				{"type": "item","code": "game:waterportion", "shapeElement": "game:bowl/water"}
 				],
 			"minQuantity": 1,
 			"maxQuantity": 1,
