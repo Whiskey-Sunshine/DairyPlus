@@ -20,13 +20,6 @@
 		"*-saltedveggie" : { "saturation": 350, "foodcategory": "Dairy" }
 	},
 
-	"nutritionPropsInMealByType": {
-		"*-unsalted" : { "saturation": 400, "foodcategory": "Dairy" },
-		"*-salted" : { "saturation": 400, "foodcategory": "Dairy" },
-		"*-veggie" : { "saturation": 450, "foodcategory": "Dairy" },
-		"*-saltedveggie" : { "saturation": 450, "foodcategory": "Dairy" }
-	},
-
 	"transitionablePropsByType": {
 		"*-unsalted": [{
 			"type": "Perish",

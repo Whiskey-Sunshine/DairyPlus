@@ -1,0 +1,41 @@
+[{
+  "type": "recipe",
+  "ingredientPattern": "WbB",
+	"width": 3,
+	"height": 1,
+  "shapeless": true,
+  
+  "ingredients": {
+    "W": { "type": "item", "code": "game:beeswax" },
+	"B": { "type": "item", "code": "dairyplus:butter-*" },
+	"b": { "type": "block", "code": "game:bowl-*-fired" }
+  },
+  "output": { "type": "block", "code": "dairyplus:butterdish-plain-north" }
+},
+{
+  "type": "recipe",
+  "ingredientPattern": "G,B",
+	"width": 1,
+	"height": 2,
+  "shapeless": true,
+  
+  "ingredients": {
+    "G": { "type": "block", "code": "game:glassslab-quartz-*" },
+	"B": { "type": "block", "code": "dairyplus:butterdish-plain-north" }
+  },
+  "output": { "type": "block", "code": "dairyplus:butterdish-glass-north" }
+},
+{
+  "type": "recipe",
+  "ingredientPattern": "B",
+	"width": 1,
+	"height": 1,
+  "shapeless": true,
+  
+  "ingredients": {
+	"B": { "type": "block", "code": "dairyplus:butterdish-glass-north", 
+			"returnedStack": { "type": "block", "code": "game:glassslab-quartz-down-free", "quantity": 1 } }
+  },
+  "output": { "type": "block", "code": "dairyplus:butterdish-plain-north" }
+}
+]

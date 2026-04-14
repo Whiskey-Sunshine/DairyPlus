@@ -5,8 +5,8 @@
     "dairyplus:block-barrelchurn": "Butter Churning Barrel",
     "dairyplus:block-plungerchurn": "Butter Churn",
     "dairyplus:block-creamscoop": "Cream Scoop",
-	"dairyplus:block-butterdish-plain-north": "Wax Butter Plate",
-	"dairyplus:block-butterdish-glass-north": "Wax Butter Plate (Covered)",
+	"dairyplus:block-butterdish-plain-north": "Wax Butterdish",
+	"dairyplus:block-butterdish-glass-north": "Wax Butterdish (Covered)",
 
     "dairyplus:item-butter-unsalted": "Unsalted Butter",
     "dairyplus:item-butter-salted": "Salted Butter",
@@ -19,6 +19,7 @@
     "dairyplus:item-soypaste": "Soybean Paste",
 
     "dairyplus:item-plaincustard": "Plain Custard",
+	"dairyplus:item-tofu": "Tofu",
 
     // liquid names
     "dairyplus:liquid-cream": "Cream",
@@ -63,8 +64,8 @@
    	"blockdesc-butterdish-*": "A wax copy of butter that won't rot. Purely decorative.",
 
     //handbook enteries
-    "block-handbooktitle-plungerchurn": "Uses",
-    "block-handbooktext-plungerchurn": "Place cream in the top slot and interact with the handle to start churning.",
+    "item-handbooktitle-plungerchurn": "Uses",
+    "item-handbooktext-plungerchurn": "Place cream in the top slot and interact with the handle to start churning.",
     
     //Meals
     "dairyplus:recipeingredient-item-condensedmilk-topping": "Condensed milk",
@@ -82,19 +83,22 @@
 	"dairyplus:recipeingredient-item-skimmilk-insturmentalcase": "Skimmilk",
 	"game:recipeingredient-item-milkportion-insturmentalcase": "milk",
 	
-	"dairyplus:recipeingredient-item-soybeans-insturmentalcase": "soybean",
+	"dairyplus:recipeingredient-item-soybeans-insturmentalcase": "soybeans",
 	"dairyplus:recipeingredient-item-butter-insturmentalcase": "butter",
 	
-	"game:ingredient-stew-primary-soybeans-*": "Soybean",
-	"game:meal-ingredient-stew-primary-soybeans-*": "Soybean",
-	"game:ingredient-stew-secondary-soybeans-*": "soybean",
-	"game:meal-ingredient-stew-secondary-soybeans-*": "soybean",
-	"game:meal-ingredient-soup-primary-soybeans-*": "Soybean",
+	"game:ingredient-stew-primary-soybeans": "Soybean",
+	"game:meal-ingredient-stew-primary-soybeans": "Soybean",
+	"game:ingredient-stew-secondary-soybeans": "soybeans",
+	"game:meal-ingredient-stew-secondary-soybeans": "soybeans",
+	"game:meal-ingredient-soup-primary-soybeans": "Soybean",
 	
+	"game:ingredient-stew-secondary-tofu": "tofu",
+	"game:meal-ingredient-stew-secondary-tofu": "tofu",
+	"dairyplus:recipeingredient-item-tofu-insturmentalcase": "tofu",
 	
 	"creamguide-title": "Crafting Mechanic: Skimming Cream",
 	"creamguide-text": "<strong>Skimming Cream</strong><br>To start, you'll need some fresh milk. About 50L will do.<br>Milk will naturally seperate if left to settle; so go ahead and seal it in a barrel to let it rest undisturbed as you prepare for the next step. <br><br>Craft yourself a <a href=\"handbook://block-creamscoop\">Cream Scoop</a> and you'll be able to skim the cream from the <a href=\"handbook://item-separatingmilk\">Separating Milk</a> in the barrel once the milk fats have finished rising to the top. To do this, crouch with your scoop in hand and interract with the barrel. Be patient, this step is delicate and takes a few moments, else you'll simply mix the milk back together. <br><br>With a scoop full of <a href=\"handbook://item-cream\">Cream</a>, you'll be left some <a href=\"handbook://item-skimmilk\">Skim Milk</a> in the barrel. Though slightly less nutritious, and no longer capable of curdling into cheese, this milk can still be used in all other places you'd find yourself adding a splash of dairy.", 
 
 	"butterguide-title": "Crafting Mechanic: Churning Butter",
-	"butterguide-text": "<strong>Churning Butter</strong><br><a href=\"handbook://item-cream\">Cream</a> has a number of culinary uses on it's own, however whipping it into <a href=\"handbook://item-butter-unsalted\">butter</a> will give you a world of new cooking options. <br><br>While it requires a bit of effort, a <a href=\"handbook://block-plungerchurn\">Butter Churn</a> will make it possible to do so. Clicking the bottom portion of the churn will open a window with a top slot for cream and a bottom slot for collecting the freshly made butter.<br>Pour the cream in, interact with the handle, and watch as the cream turns to butter before your eyes.", 
+	"butterguide-text": "<strong>Churning Butter</strong><br><a href=\"handbook://item-cream\">Cream</a> has a number of culinary uses on it's own, however whipping it into <a href=\"handbook://item-butter-unsalted\">butter</a> will give you a world of new cooking options. <br><br>While it requires a bit of effort, a <a href=\"handbook://block-plungerchurn\">Butter Churn</a> will make it possible to do so. Clicking the bottom portion of the churn will open a window with a top slot for cream and a bottom slot for collecting the freshly made butter.<br>Pour the cream in, interact with the handle, and watch as the cream turns to butter before your eyes." 
 }

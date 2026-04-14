@@ -8,9 +8,9 @@
 		{ "code": "type", "states": [ "plain", "glass" ] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
 		
-	"behaviors": [{"name": "HorizontalOrientable"},{"name": "WrenchOrientable"}],
+	"behaviors": [{"name": "HorizontalOrientable"}],
 	"attributes": {
-		"handbook": { "exclude": "true" }
+		"handbook": { "groupBy": "type" }
 		},
 	
 	"materialDensity": 900,

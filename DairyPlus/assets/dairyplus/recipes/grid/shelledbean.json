@@ -6,7 +6,7 @@
   "shapeless": false,
   
   "ingredients": {
-    "S": { "type": "item", "code": "game:food/*-soybean" },
+    "S": { "type": "item", "code": "game:legume-soybean" },
 	"K": { "type": "item", "code": "game:knife-*", "isTool": true }
   },
   "output": { "type": "item", "code": "soybeans-shelled" }
