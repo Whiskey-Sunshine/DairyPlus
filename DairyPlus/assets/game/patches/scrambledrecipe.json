@@ -76,8 +76,8 @@
       {"type": "item", "code": "dairyplus:skimmilk"},
       {"type": "item", "code": "dairyplus:cream"},
       {"type": "item", "code": "dairyplus:condensedmilk"},
-      {"type": "item", "code": "dairyplus:sauceplain"},
-      {"type": "item", "code": "dairyplus:saucecheese"}
+      {"type": "item", "code": "dairyplus:sauce-plain"},
+      {"type": "item", "code": "dairyplus:sauce-cheese"}
     ],
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"

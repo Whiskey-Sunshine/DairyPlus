@@ -3,7 +3,7 @@
 	"code": "creamsauce",
 	"enabled": true,
 	"perishableProps": {
-		"type": "None",
+		"type": "none",
 		"freshHours": { "avg": 720 },
 		"transitionHours": { "avg": 168 },
 		"transitionRatio": 1,
@@ -13,20 +13,28 @@
 	"isfood": true,
 	"ingredients": [
 		{ 
-			"code": "Dairy", 
-			"validStacks": [ {"type": "item","code": "game:milkportion"} ],
+			"code": "milk", 
+				"validStacks": [ {"type": "item","code": "game:milkportion"} ],
 			"minQuantity": 1,
 			"maxQuantity": 1,
 			"portionSizeLitres": 2
 		},
 		{ 
-			"code": "Flour", 
-			"validStacks": [ {"type": "item","code": "game:flour-*"} ],
+			"code": "flour", 
+			"validStacks": [ 
+				{"type": "item","code": "game:flour-spelt"}, 
+				{"type": "item","code": "game:flour-sunflower"},
+				{"type": "item","code": "game:flour-amaranth"},
+				{"type": "item","code": "game:flour-cassava"},
+				{"type": "item","code": "game:flour-rye"},
+				{"type": "item","code": "game:flour-flax"},
+				{"type": "item","code": "game:flour-rice"}
+			],
 			"minQuantity": 1,
 			"maxQuantity": 1
-		},
+		}
 		{ 
-			"code": "Butter", 
+			"code": "butter", 
 			"validStacks": [ 
 				{"type": "item","code": "dairyplus:butter-unsalted"},
 				{"type": "item","code": "dairyplus:butter-salted"},
@@ -44,7 +52,7 @@
 	"code": "cheesesauce",
 	"enabled": true,
 	"perishableProps": {
-		"type": "None",
+		"type": "none",
 		"freshHours": { "avg": 720 },
 		"transitionHours": { "avg": 168 },
 		"transitionRatio": 1,
@@ -54,22 +62,30 @@
 	"isfood": true,
 	"ingredients": [
 		{ 
-			"code": "Dairy", 
+			"code": "mil", 
 			"validStacks": [ 
-			{"type": "item","code": "game:milkportion"}
+				{"type": "item","code": "game:milkportion"}
 			],
 			"minQuantity": 1,
 			"maxQuantity": 1,
 			"portionSizeLitres": 2
 		},
 		{ 
-			"code": "Flour", 
-			"validStacks": [ {"type": "item","code": "game:flour-*"} ],
+			"code": "flour", 
+			"validStacks": [ 
+				{"type": "item","code": "game:flour-spelt"}, 
+				{"type": "item","code": "game:flour-sunflower"},
+				{"type": "item","code": "game:flour-amaranth"},
+				{"type": "item","code": "game:flour-cassava"},
+				{"type": "item","code": "game:flour-rye"},
+				{"type": "item","code": "game:flour-flax"},
+				{"type": "item","code": "game:flour-rice"}
+			],
 			"minQuantity": 1,
 			"maxQuantity": 1
 		},
 		{ 
-			"code": "Butter", 
+			"code": "butter", 
 			"validStacks": [ 
 				{"type": "item","code": "dairyplus:butter-unsalted"},
 				{"type": "item","code": "dairyplus:butter-salted"},
