@@ -41,8 +41,8 @@
 				"requiresLitres": 1
 			}},
 	"output": { "type": "item", "code": "butter-salted" }
- },
-  {
+},
+{
 	"type": "recipe",
 	"ingredientPattern": "T,W",
 		"width": 2,
@@ -59,17 +59,4 @@
 				"requiresLitres": 1
 			}},
 	"output": { "type": "item", "code": "butter-salted" }
-},
-{
-	"type": "recipe",
-	"ingredientPattern": "V,S",
-		"width": 2,
-		"height": 1,
-	"shapeless": true,
-  
-	"ingredients": {
-		"V": { "type": "item", "code": "butter-veggie", "quantity": 2 },
-		"S": { "type": "item", "code": "game:salt" }
-		},
-	"output": { "type": "item", "code": "butter-saltedveggie", "quantity": 2 }
 }] 

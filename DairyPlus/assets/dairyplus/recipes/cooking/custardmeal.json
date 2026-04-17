@@ -1,0 +1,110 @@
+{
+	"code": "custard",
+	"perishableProps": {
+		"freshHours": { "avg": 90 },
+		"transitionHours": { "avg": 24 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "rot" }
+		},
+	"shape": { "base": "dairyplus:block/meal/custardmeal" },
+	"ingredients": [
+		{
+			"code": "custard", 
+			"validStacks": [ 
+				{ "type": "item", "code": "dairyplus:plaincustard",  "shapeElement": "bowl/custard/*", "textureMapping": ["plaincustard", "plaincustard"] }
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1,
+            "typeName": "custard"
+		},
+		{
+			"code": "berry", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:fruit-cranberry",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "group3"] },
+				{ "type": "item", "code": "game:fruit-blueberry",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "group1"] },
+				{ "type": "item", "code": "game:fruit-whitecurrant",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "group4"] },
+				{ "type": "item", "code": "game:fruit-redcurrant",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "group6"] },
+				{ "type": "item", "code": "game:fruit-blackcurrant",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "group5"] },
+				{ "type": "item", "code": "game:fruit-cherry",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "fruit-cherry"] },
+				{ "type": "item", "code": "game:fruit-lychee",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "fruit-lychee"] },
+				{ "type": "item", "code": "game:fruit-pomegranate",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "fruit-pomegranate"] },
+				{ "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/berry/*", "textureMapping": ["fruit", "peanutincust"] }
+				],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+            "typeName": "smallbits"
+		},
+		{
+			"code": "berry2", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:fruit-cranberry",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "group3"] },
+				{ "type": "item", "code": "game:fruit-blueberry",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "group1"] },
+				{ "type": "item", "code": "game:fruit-whitecurrant",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "group4"] },
+				{ "type": "item", "code": "game:fruit-redcurrant",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "group6"] },
+				{ "type": "item", "code": "game:fruit-blackcurrant",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "group5"] },
+				{ "type": "item", "code": "game:fruit-cherry",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "fruit-cherry"] },
+				{ "type": "item", "code": "game:fruit-lychee",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "fruit-lychee"] },
+				{ "type": "item", "code": "game:fruit-pomegranate",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "fruit-pomegranate"] },
+				{ "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/berry2/*", "textureMapping": ["fruit", "peanutincust"] }
+				],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+            "typeName": "smallbits"
+		},
+		{
+			"code": "fruit1", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:fruit-cranberry",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group3"] },
+				{ "type": "item", "code": "game:fruit-blueberry",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group1"] },
+				{ "type": "item", "code": "game:fruit-whitecurrant",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group4"] },
+				{ "type": "item", "code": "game:fruit-redcurrant",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group6"] },
+				{ "type": "item", "code": "game:fruit-blackcurrant",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group5"] },
+				{ "type": "item", "code": "game:fruit-cherry",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-cherry"] },	
+				{ "type": "item", "code": "game:fruit-lychee",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-lychee"] },
+				{ "type": "item", "code": "game:fruit-pomegranate",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-pomegranate"] },
+				{ "type": "item", "code": "game:fruit-peach",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-peach"] },
+				{ "type": "item", "code": "game:fruit-pear",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-pear"] },
+				{ "type": "item", "code": "game:fruit-mango",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-mango"] },
+				{ "type": "item", "code": "game:fruit-saguaro",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "group2"] },
+				{ "type": "item", "code": "game:fruit-orange",  "shapeElement": "bowl/fruit1/*", "textureMapping": ["fruit", "fruit-orange"] }
+				],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+            "typeName": "fruit"
+		},
+		{
+			"code": "slices", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:fruit-redapple",  "shapeElement": "bowl/slices/*", "textureMapping": ["slice", "meal1"] },
+				{ "type": "item", "code": "game:fruit-pinkapple",  "shapeElement": "bowl/slices/*", "textureMapping": ["slice", "meal2"] },
+				{ "type": "item", "code": "game:fruit-yellowapple",  "shapeElement": "bowl/slices/*", "textureMapping": ["slice", "meal3"] }
+				],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+            "typeName": "other"
+		},
+		{
+			"code": "slicesmore", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:fruit-redapple",  "shapeElement": "bowl/slicesmore/*", "textureMapping": ["slice", "meal1"] },
+				{ "type": "item", "code": "game:fruit-pinkapple",  "shapeElement": "bowl/slicesmore/*", "textureMapping": ["slice", "meal2"] },
+				{ "type": "item", "code": "game:fruit-yellowapple",  "shapeElement": "bowl/slicesmore/*", "textureMapping": ["slice", "meal3"] }
+				],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+            "typeName": "other"
+		},
+		{
+			"code": "topping", 
+			"validStacks": [ 
+				{ "type": "item", "code": "game:honeyportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "honey"] },
+				{ "type": "item", "code": "dairyplus:condensedmilk",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "milkportion"] }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.4,
+            "typeName": "sweetener"
+		}
+		]
+}

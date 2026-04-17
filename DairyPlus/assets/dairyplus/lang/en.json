@@ -68,37 +68,44 @@
     "item-handbooktext-plungerchurn": "Place cream in the top slot and interact with the handle to start churning.",
     
     //Meals
-    "dairyplus:recipeingredient-item-condensedmilk-topping": "Condensed milk",
-	"dairyplus:recipeingredient-item-cream-topping": "Cream",
-	"dairyplus:recipeingredient-item-soymilk-topping": "Soymilk",
-	"dairyplus:recipeingredient-item-sauce-cheese-topping": "Cheesy sauce",
-	"dairyplus:recipeingredient-item-sauce-plain-topping": "Sauce",
-	"dairyplus:recipeingredient-item-skimmilk-topping": "Skimmilk",
+    "dairyplus:recipeingredient-item-condensedmilk-topping": "condensed milk",
+	"dairyplus:recipeingredient-item-cream-topping": "cream",
+	"dairyplus:recipeingredient-item-soymilk-topping": "soymilk",
+	"dairyplus:recipeingredient-item-sauce-cheese-topping": "cheesy sauce",
+	"dairyplus:recipeingredient-item-sauce-plain-topping": "cream sauce",
+	"dairyplus:recipeingredient-item-skimmilk-topping": "skimmilk",
 	
-	"dairyplus:recipeingredient-item-condensedmilk-insturmentalcase": "Condensed milk",
-	"dairyplus:recipeingredient-item-cream-insturmentalcase": "Cream",
-	"dairyplus:recipeingredient-item-soymilk-insturmentalcase": "Soymilk",
-	"dairyplus:recipeingredient-item-sauce-cheese-insturmentalcase": "Cheesy sauce",
-	"dairyplus:recipeingredient-item-sauce-plain-insturmentalcase": "Sauce",
-	"dairyplus:recipeingredient-item-skimmilk-insturmentalcase": "Skimmilk",
+	"dairyplus:recipeingredient-item-condensedmilk-insturmentalcase": "condensed milk",
+	"dairyplus:recipeingredient-item-cream-insturmentalcase": "cream",
+	"dairyplus:recipeingredient-item-soymilk-insturmentalcase": "soymilk",
+	"dairyplus:recipeingredient-item-sauce-cheese-insturmentalcase": "cheesy sauce",
+	"dairyplus:recipeingredient-item-sauce-plain-insturmentalcase": "cream sauce",
+	"dairyplus:recipeingredient-item-skimmilk-insturmentalcase": "skimmilk",
 	"game:recipeingredient-item-milkportion-insturmentalcase": "milk",
 	
 	"dairyplus:recipeingredient-item-soybeans-insturmentalcase": "soybeans",
 	"dairyplus:recipeingredient-item-butter-insturmentalcase": "butter",
 	
-	"game:ingredient-stew-primary-soybeans": "Soybean",
-	"game:meal-ingredient-stew-primary-soybeans": "Soybean",
+	"game:ingredient-stew-primary-soybeans": "soybean",
+	"game:meal-ingredient-stew-primary-soybeans": "soybean",
 	"game:ingredient-stew-secondary-soybeans": "soybeans",
 	"game:meal-ingredient-stew-secondary-soybeans": "soybeans",
-	"game:meal-ingredient-soup-primary-soybeans": "Soybean",
+	"game:meal-ingredient-soup-primary-soybeans": "soybean",
 	
 	"game:ingredient-stew-secondary-tofu": "tofu",
 	"game:meal-ingredient-stew-secondary-tofu": "tofu",
 	"dairyplus:recipeingredient-item-tofu-insturmentalcase": "tofu",
 	
+	"game:meal-normal-custard": "sweet custard {1}",
+	"game:mealrecipe-name-custard-in-container": "sweet custard",
+	
+	"game:handbook-mealingredient-custard": "custard",
+	"game:handbook-mealingredient-other": "dipped wedges",
+	"game:handbook-mealingredient-smallbits": "small toppings",
+
 	"creamguide-title": "Crafting Mechanic: Skimming Cream",
-	"creamguide-text": "<strong>Skimming Cream</strong><br>To start, you'll need some fresh milk. About 50L will do.<br>Milk will naturally seperate if left to settle; so go ahead and seal it in a barrel to let it rest undisturbed as you prepare for the next step. <br><br>Craft yourself a <a href=\"handbook://block-creamscoop\">Cream Scoop</a> and you'll be able to skim the cream from the <a href=\"handbook://item-separatingmilk\">Separating Milk</a> in the barrel once the milk fats have finished rising to the top. To do this, crouch with your scoop in hand and interract with the barrel. Be patient, this step is delicate and takes a few moments, else you'll simply mix the milk back together. <br><br>With a scoop full of <a href=\"handbook://item-cream\">Cream</a>, you'll be left some <a href=\"handbook://item-skimmilk\">Skim Milk</a> in the barrel. Though slightly less nutritious, and no longer capable of curdling into cheese, this milk can still be used in all other places you'd find yourself adding a splash of dairy.", 
+	"creamguide-text": "<strong>Skimming Cream</strong><br>To start, you'll need some fresh milk. About 50L will do.<br>Milk will naturally seperate if left to settle; so go ahead and seal it in a barrel to let it rest undisturbed as you prepare for the next step. <br><br>Craft yourself a <a href=\"handbook://block-dairyplus:creamscoop\">Cream Scoop</a> and you'll be able to skim the cream from the <a href=\"handbook://item-dairyplus:separatingmilk\">Separating Milk</a> in the barrel once the milk fats have finished rising to the top. To do this, crouch with your scoop in hand and interract with the barrel. Be patient, this step is delicate and takes a few moments, else you'll simply mix the milk back together. <br><br>With a scoop full of <a href=\"handbook://item-dairyplus:cream\">Cream</a>, you'll be left some <a href=\"handbook://item-dairyplus:skimmilk\">Skim Milk</a> in the barrel. Though slightly less nutritious, and no longer capable of curdling into cheese, this milk can still be used in all other places you'd find yourself adding a splash of dairy.<br><br>mod: DairyPlus", 
 
 	"butterguide-title": "Crafting Mechanic: Churning Butter",
-	"butterguide-text": "<strong>Churning Butter</strong><br><a href=\"handbook://item-cream\">Cream</a> has a number of culinary uses on it's own, however whipping it into <a href=\"handbook://item-butter-unsalted\">butter</a> will give you a world of new cooking options. <br><br>While it requires a bit of effort, a <a href=\"handbook://block-plungerchurn\">Butter Churn</a> will make it possible to do so. Clicking the bottom portion of the churn will open a window with a top slot for cream and a bottom slot for collecting the freshly made butter.<br>Pour the cream in, interact with the handle, and watch as the cream turns to butter before your eyes." 
+	"butterguide-text": "<strong>Churning Butter</strong><br><a href=\"handbook://item-dairyplus:cream\">Cream</a> has a number of culinary uses on it's own, however whipping it into <a href=\"handbook://item-dairyplus:butter-unsalted\">butter</a> will give you a world of new cooking options. <br><br>While it requires a bit of effort, a <a href=\"handbook://block-dairyplus:plungerchurn\">Butter Churn</a> will make it possible to do so. Clicking the bottom portion of the churn will open a window with a top slot for cream and a bottom slot for collecting the freshly made butter.<br>Pour the cream in, interact with the handle, and watch as the cream turns to butter before your eyes.<br><br>mod: DairyPlus" 
 }

@@ -1,13 +1,13 @@
 {
 	"code": "butter",
 	"variantgroups": [
-		{ "code": "type", "states": [ "unsalted", "salted", "twicesalted", "veggie", "saltedveggie" ] }
+		{ "code": "type", "states": [ "unsalted", "salted", "twicesalted" ] }
 	],
 
 	"creativeinventory": { "general": [ "*" ], "dairyplus": [ "*" ], "items": [ "*" ] },
 	"maxStackSize": 24,
 	"materialDensity": 900,
-	"canSealCrock": "true",
+	"canSealCrock": true,
 
 	"shape": { "base": "dairyplus:item/butter" },
 	"texture": { "base": "dairyplus:item/butter/{type}"
@@ -16,8 +16,6 @@
 	"nutritionPropsByType": {
 		"*-unsalted" : { "saturation": 300, "foodcategory": "Dairy" },
 		"*-salted" : { "saturation": 300, "foodcategory": "Dairy" },
-		"*-veggie" : { "saturation": 350, "foodcategory": "Dairy" },
-		"*-saltedveggie" : { "saturation": 350, "foodcategory": "Dairy" }
 	},
 
 	"transitionablePropsByType": {
@@ -46,26 +44,6 @@
 			"transitionedStack": {
 				"type": "item",
 				"code": "game:rot"},
-			"transitionRatio": 0.5
-		}],
-		"*-veggie" : [{
-			"type": "Perish",
-			"freshHours": { "avg": 480 },
-			"transitionHours": { "avg": 108 },
-			"transitionedStack": {
-				"type": "item",
-				"code": "game:rot"
-			},
-			"transitionRatio": 0.5
-		}],
-		"*-saltedveggie" : [{
-			"type": "Perish",
-			"freshHours": { "avg": 960 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": {
-				"type": "item",
-				"code": "game:rot"
-			},
 			"transitionRatio": 0.5
 		}]
 	},

@@ -14,7 +14,6 @@
 		"transitionedStack": { "type": "item", "code": "game:rot" }
 		}],
 	"attributes": {
-		"inPieProperties": { "texture": "game:block/custardfill", "partType": "Filling" },
 		"displaycaseable": true,
 		"shelvable": true
 		},

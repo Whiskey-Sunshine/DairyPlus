@@ -32,14 +32,12 @@
 			],
 			"minQuantity": 1,
 			"maxQuantity": 1
-		}
+		},
 		{ 
 			"code": "butter", 
 			"validStacks": [ 
 				{"type": "item","code": "dairyplus:butter-unsalted"},
 				{"type": "item","code": "dairyplus:butter-salted"},
-				{"type": "item","code": "dairyplus:butter-veggie"},	
-				{"type": "item","code": "dairyplus:butter-saltedveggie"}
 				],
 			"minQuantity": 1,
 			"maxQuantity": 1
@@ -89,8 +87,6 @@
 			"validStacks": [ 
 				{"type": "item","code": "dairyplus:butter-unsalted"},
 				{"type": "item","code": "dairyplus:butter-salted"},
-				{"type": "item","code": "dairyplus:butter-veggie"},	
-				{"type": "item","code": "dairyplus:butter-saltedveggie"}
 				],
 			"minQuantity": 1,
 			"maxQuantity": 1
